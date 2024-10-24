@@ -6,8 +6,9 @@
 
 $numeroAlunos = 5; 
 $frequencia = []; 
+// entrada de inforamção do usuário
 $totalAulas = readline("Digite o número total de aulas ministradas: ");
-//loop para solicitar o numero de aluas frequentadas por 5 alunos
+//loop para solicitar o numero de aulas frequentadas por 5 alunos
 for ($i = 1; $i <= $numeroAlunos; $i++) { 
     $aulasFrequentadas = readline("Digite o número de aulas frequentadas pelo aluno $i: ");
 //calcular o percentual de frequencia
