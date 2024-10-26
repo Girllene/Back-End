@@ -12,6 +12,9 @@ class Professor {
     public function getNome(){
         return $this ->nome;
     }
+    public function setDisciplina($disciplinaNovo){
+        $this ->nome = $disciplinaNovo;
+    }
     public function setNome($nomeNovo){
         $this ->nome = $nomeNovo;
     }
