@@ -1,11 +1,11 @@
 <?php
 class Pessoa{ 
     // Propriedade
-    private $nome;
-    private $dataDeNascimento;
-    private $disciplina;
-    private $cpf;
-    private $identificacao;
+    protected $nome;
+    protected $dataDeNascimento;
+    protected $disciplina;
+    protected $cpf;
+    protected $identificacao;
 
      // Construtor
     public function __construct ($nome, $dataDeNascimento, $disciplina,
